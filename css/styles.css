@@ -1,0 +1,159 @@
+* {
+    color: black;
+    font-family: 'Garamond', serif;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+header {
+	text-align: center;
+	padding: 2%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2, h3, h4, p {
+    padding: 5px 10px;
+}
+
+.navbar{
+    display: block;
+    background-color: #a8dcab;
+    justify-content: center;
+    padding: 10px 5px;
+	color: #c3d6e8;
+    font-size: 20px;
+}
+
+.navbar a {
+	text-decoration: none;
+	padding: 8px 20px;
+	color: #fff;
+	font-size: 1em;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+a:hover {
+    color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+    border: .6px solid #a8dcab;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.row_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    flex: 1;
+}
+
+.features {
+    list-style: none;
+    text-align: left;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.contact {
+    list-style: none;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.readmore {
+    padding: 10px 10px;
+    color: #FA9BCF;
+    text-align: left;
+}
+
+.email {
+    color: #FA9BCF;
+}
+
+.img_box {
+    background-color: #000;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+
+.img_box_clear {
+    background-color: transparent;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+
+.image {
+    display: flex;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.qr-box {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    margin-top: auto;
+}
+
+.qr {
+    display: flex;
+    width: 1in;
+    height: 1in;
+}
+
+footer {
+	display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+	padding: 5px;
+	background: #a8dcab;
+	color: #fff;
+}
+
+footer p, footer a {
+    display: flex;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+    text-align: center;
+}
